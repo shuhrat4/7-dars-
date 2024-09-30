@@ -2,6 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import { Home, Profile } from '../pages'
 import Navbar from '../components/Navbar'
+import Sitebar from '../components/Sitebar'
 
 function Dashboard() {
   return (
@@ -13,6 +14,7 @@ function Dashboard() {
           <Route path='/profile' element={<Profile/>}/>
         </Routes>
       </div>
+      <Sitebar/>
     </div>
   )
 }

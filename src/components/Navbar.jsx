@@ -66,7 +66,7 @@ function Navbar() {
     }
 
   return (
-    <div className='w-[25%] relative h-[100vh] overflow-y-auto pt-[31px] pl-[100px] pr-[15px]'>
+    <div className='w-[25%] border-r-[1px] border-slate-[#D8D8D8 ] relative h-[100vh] overflow-y-auto pt-[31px] pl-[100px] pr-[15px]'>
       <Link to={"/"}>
         <img src={Logo} alt="site logo img" width={40} height={33} />
       </Link>
@@ -78,7 +78,7 @@ function Navbar() {
             </NavLink>
         ))}
       </div>
-      <Button type={"button"} extraStyle={"py-[15px] mt-[30px]"}  >Tweet</Button>
+      <Button type={"button"} extraStyle={"py-[15px] mt-[30px] w-[200px]"}  >Tweet</Button>
       <div className="flex gap-[10px] absolute bottom-[30px]">
         <img className='rounded-full' src="https://picsum.photos/500/500" alt="icon" width={50} height={50} />
         <div className="flex items-center gap-[42px]">
